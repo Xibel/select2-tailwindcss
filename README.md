@@ -4,9 +4,11 @@ select2-tailwindcss is a Tailwind CSS Stylesheet for the Select2 selectbox.
 
 ## Installation
 
-To make a working test on your local dev, clone this repository to your Node project folder and run 
+To make a working test on your local dev environment, clone this repository and install the dependencies: 
 
 ```bash
+git clone https://github.com/Xibel/select2-tailwindcss.git
+cd select2-tailwindcss
 npm install
 ```
 
