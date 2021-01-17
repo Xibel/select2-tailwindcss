@@ -1,6 +1,6 @@
 # select2-tailwindcss
 
-select2-tailwindcss is a Tailwind CSS Stylesheet for the Select2 selectbox.
+select2-tailwindcss is a Tailwind CSS Stylesheet for the Select2 selectbox. The example style is located in the /src/css folder. Please take a look for the Tailwind CSS classes I used. If you want a working example installed locally in your own dev environment, please follow the next instructions. 
 
 ## Installation
 
