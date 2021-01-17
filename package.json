@@ -1,0 +1,17 @@
+{
+  "name": "select2-tailwindcss",
+  "version": "1.0.0",
+  "description": "Tailwind CSS example for select2 box",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/styles.css -o build/css/styles.css"
+  },
+  "keywords": [],
+  "author": "Xibel",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
