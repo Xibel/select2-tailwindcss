@@ -27,7 +27,7 @@
 		@apply box-border overflow-hidden h-4 cursor-pointer block select-none;
 	}
 
-	..select2-container .select2-selection--multiple .select2-selection__rendered {
+	.select2-container .select2-selection--multiple .select2-selection__rendered {
 		@apply inline-block pl-2 truncate whitespace-nowrap;
 	}
 	.select2-container .select2-search--inline {
