@@ -8,7 +8,7 @@
 }
 	.select2-container .select2-selection--single {
 		/* Selection box itself */
-		@apply box-border cursor-pointer block select-none shadow border rounded select-none;
+		@apply box-border cursor-pointer block select-none shadow border rounded;
 	}
 
 		.select2-container .select2-selection--single .select2-selection__rendered {
