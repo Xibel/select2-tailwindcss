@@ -2,6 +2,11 @@
 
 select2-tailwindcss is a Tailwind CSS Stylesheet for the Select2 selectbox. The example style is located in the /src/css folder. Please take a look for the Tailwind CSS classes I used. If you want a working example installed locally in your own dev environment, please follow the next instructions. 
 
+## Prerequisites
+
+You need Node and NPM globally installed from https://nodejs.org/en/download/
+You need to install live-server to be able to start a local preview in your browser. Install live-server with: 'npm install -g live-server'
+
 ## Installation
 
 To make a working test on your local dev environment, clone this repository and install the dependencies: 
