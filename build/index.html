@@ -9,7 +9,6 @@
         <title>Select2 Tailwind CSS Demo</title>
     </head>
     <body>
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.selectpicker').select2();
@@ -22,20 +21,21 @@
             });
         </script>
 
-        <div class="flex justify-center p-4 px-3 py-10">
-            <div class="w-full max-w-lg">
-                <div class="shadow-drop-center bg-white rounded shadow">
-                    <div class="border-b py-4 text-gray-700 text-center text-xl tracking-wider">
+        <div class="flex justify-center h-screen p-4 px-3 py-10 bg-white dark:bg-black">
+            <div class="w-full max-w-lg bg-white dark:bg-black">
+                
+                <div class="shadow-drop-center bg-white dark:bg-black">
+                    <div class="py-4 text-gray-700 dark:text-gray-400 text-center text-xl tracking-wider">
                         Tailwind CSS and Select2 single example
                     </div>
-                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+                    <form class="bg-white dark:bg-black border dark:border-slate-500 rounded px-8 pt-6 pb-8 mb-4"
                         method="POST"
                         autocomplete="on"
                         novalidate
                     >
 
                         <div class="mb-4">
-                            <label class="block text-gray-700 text-md font-bold mb-2" for="pair">
+                            <label class="block text-gray-700 dark:text-gray-400 text-md font-bold mb-2" for="pair">
                                 Choose your city:
                             </label>
                             <select
@@ -58,18 +58,18 @@
                     </form>
                 </div>
 
-                <div class="shadow-drop-center bg-white rounded shadow mt-8">
-                    <div class="border-b py-4 text-gray-700 text-center text-xl tracking-wider">
+                <div class="shadow-drop-center bg-white dark:bg-black mt-8">
+                    <div class="py-4 text-gray-700 dark:text-gray-400 text-center text-xl tracking-wider">
                         Tailwind CSS and Select2 multiple example
                     </div>
-                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+                    <form class="bg-white dark:bg-black border dark:border-slate-500 rounded px-8 pt-6 pb-8 mb-4"
                         method="POST"
                         autocomplete="on"
                         novalidate
                     >
 
                         <div class="mb-4">
-                            <label class="block text-gray-700 text-md font-bold mb-2" for="pair">
+                            <label class="block text-gray-700 dark:text-gray-400 text-md font-bold mb-2" for="pair">
                                 Choose your cities:
                             </label>
                             <select
@@ -92,8 +92,7 @@
                         </div>
                     </form>
                 </div>
-
-            </div>  
+            </div>
         </div>
     </body>
 </html>
